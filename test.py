@@ -23,7 +23,7 @@ sepal_width_test =  ["Passed &#9989;" if sepal_width_test else "Failed &#10540;"
 petal_length_test = ["Passed &#9989;" if petal_length_test else "Failed &#10540;"]
 petal_width_test = ["Passed &#9989;" if petal_width_test else "Failed &#10540;"]
 
-expected_columns = 5
+expected_columns = 4
 def test_check_schema():
     header = dataset[dataset.columns[:-1]]
     actual_columns = header.shape[1]
